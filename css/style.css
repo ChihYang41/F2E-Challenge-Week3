@@ -1,0 +1,237 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+img{
+	max-width: 100%;
+	height: auto;
+}
+* {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+a{
+	text-decoration: none;
+}
+/*css reset end*/
+body{
+	background: #F2F2F2;
+}
+.wrap{
+	max-width: 1024px;
+	margin: 0 auto;
+	font-family: Microsoft JhengHei;
+}
+.clearfix{
+	clear: both;
+}
+.menu{
+	height: 70px;
+	background: #000000;
+}
+.menu h1{
+	float: left;
+	padding: 20px 35px 15px 20px;
+	font-size: 24px;
+	color: #fff;
+}
+.menu-list{
+	float: left;
+}
+.menu-list li{
+	float: left;
+}
+.menu-list li a{
+	padding: 25px 25px 15px 25px;
+	color: #9B9B9B;
+	display: block;
+	font-size: 16px;
+}
+.menu-list li a:hover{
+	border-bottom: 2px #fff solid;
+	color: #fff;
+}
+.admin{
+	float: right;
+	padding: 25px 25px 15px 25px;
+	display: block;
+	color: #fff;
+}
+.admin:hover{
+	border-bottom: 2px #fff solid;
+	color: #fff;
+}
+.overview h3{
+	float: left;
+	padding: 25px 25px 25px 20px;
+	font-size: 24px;
+	font-weight: bold;
+}
+.overview span{
+	float: right;
+	margin: 30px 25px 0 0 ;
+}
+.overview input{
+	float: right;
+	margin: 25px 25px 0 0 ;
+}
+.data-list li{
+	text-align: center;
+	float: left;
+	width: 31.33333%;
+	margin: 0 1% 1% 1%;
+	background: #fff;
+	box-shadow: 0 0 10px 5px #EBEBEB;
+	border-radius: 5px;
+}
+.data-list h4{
+	display: inline-block;
+	padding: 25px 0px 20px 0px;
+	font-size: 16px;
+}
+.data-list p{
+	padding-bottom: 30px;
+}
+.total-revenue-number{
+	font-size: 36px;
+	color: #7ED321;
+}
+.total-cost-number{
+	font-size: 36px;
+	color: #D0021B;
+}
+.net-income-number{
+	font-size: 36px;
+	color: #4A90E2;
+}
+.chart-container{
+	background: #fff;
+	width: 100%;
+	margin-bottom: 50px;
+	box-shadow: 0 0 10px 5px #EBEBEB;
+	border-radius: 5px;
+}
+.chart-container p{
+	padding: 30px 0 0 30px;
+	font-size: 24px;
+	font-weight: bold;
+}
+.chart{
+	background:center no-repeat url(https://camo.githubusercontent.com/22c2fafa60804cb2bc3f60ff8afe6d5262da3b25/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f7a654d6972636f2f6769746875622f73776966742d6c696e6563686172742f30312e706e67);
+	width: 100%;
+	height: 408px;
+}
+.transaction-website{
+	float: left;
+	width: 48%;
+	margin: 0 1% 0 1%;
+	background: #fff;
+	margin-bottom: 30px;
+	box-shadow: 0 0 10px 5px #EBEBEB;
+	border-radius: 5px;
+}
+.transaction-website h3{
+	font-size: 24px;
+	font-weight: bold;
+	padding: 20px 0 10px 20px;
+}
+.transaction-website p{
+	display: inline-block;
+	padding: 30px 20px 30px 20px;
+}
+.transaction-website .fab{
+	font-size: 26px;
+	width: 100%;
+	border-bottom: 1px solid #EBEBEB;
+}
+.green-words-style{
+	color: #7ED321;
+	float: right;
+}
+.red-words-style{
+	color: #D0021B ;
+	float: right;
+}
+.gray-words-style{
+	color: #9B9B9B ;
+}
+.latest-orders{
+	float: left;
+	width: 48%;
+	margin: 0 1% 0 1%;
+	background: #fff;
+	box-shadow: 0 0 10px 5px #EBEBEB;
+	border-radius: 5px;
+}
+.latest-orders h3{
+	font-size: 24px;
+	font-weight: bold;
+	padding: 20px 0 10px 20px;
+}
+.latest-orders li{
+	padding: 6px 0px 6px 0px;
+}
+.latest-orders img{
+	float: left;
+}
+.latest-orders h4{
+	font-size: 20px;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+.latest-orders p{
+	display: inline-block;
+	line-height: 1.5;
+}
+.latest-orders .fa-male{
+	margin-left: 5px;
+}
+.latest-orders span{
+	float: right;
+	margin-top: -20px;
+	margin-right: 20px;
+}
+.latest-orders .total-price{
+	font-size: 20px;
+	font-weight: bold;
+}
